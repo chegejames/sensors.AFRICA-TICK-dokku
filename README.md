@@ -92,12 +92,12 @@ Confirm Kapacitor is subscribed to all databases in InfluxDB
 ## Production
 
 If not already installed, please install [dokku](http://dokku.viewdocs.io/dokku/)
-    ```
+
     # for debian systems, installs dokku via apt-get
     $ wget https://raw.githubusercontent.com/dokku/dokku/v0.11.3/bootstrap.sh
     $ sudo DOKKU_TAG=v0.11.3 bash bootstrap.sh
     # go to your server's IP and follow the web installer
-    ```
+    
 
 Using docker image tag deployment, we will deploy all TICK stack components from the docker registry. We then link the individual dokku apps to create the TICK stack.
 
